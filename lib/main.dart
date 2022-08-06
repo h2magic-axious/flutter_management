@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_management/pages/framework.dart';
-import 'package:flutter_management/pages/hello.dart';
+import 'package:flutter_management/pages/Root.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Root());
 }

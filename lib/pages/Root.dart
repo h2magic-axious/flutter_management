@@ -10,7 +10,7 @@ class Root extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
         title: "Management",
-        theme: ThemeData(primarySwatch: Colors.green),
+        theme: ThemeData(primarySwatch: Colors.blue),
         home: const Login());
   }
 }
