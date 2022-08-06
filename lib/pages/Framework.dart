@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_management/list_controllers.dart';
 import 'package:get/get.dart';
 
 class Framework extends StatelessWidget {
-  const Framework({Key? key}) : super(key: key);
+  Framework({Key? key}) : super(key: key);
+
+  final ListController data = Get.put(ListController());
+  final ListController fields = Get.put(ListController());
 
   @override
   Widget build(BuildContext context) {
