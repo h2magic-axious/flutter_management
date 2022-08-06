@@ -74,7 +74,7 @@ class _LoginState extends State<_Login> {
       var form = _formKey.currentState;
       form?.save();
       if (_username == 'admin' && _password == '123456') {
-        Get.off(const Framework());
+        Get.off(Framework());
       }
     }
   }
