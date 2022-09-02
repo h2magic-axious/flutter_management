@@ -1,6 +1,11 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_management/pages/Root.dart';
+import 'package:flutter_management/pages/root.dart';
+import 'package:flutter_management/utils/settings/size.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final windowSizeService = WindowSizeService();
+  await windowSizeService.initialize();
+
   runApp(const Root());
 }
